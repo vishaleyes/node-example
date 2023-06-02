@@ -1,0 +1,38 @@
+{
+  "name": "node-hello",
+  "version": "1.0.0",
+  "description": "",
+  "source": "server.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpapa/node-hello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpapa/node-hello/issues"
+  },
+  "homepage": "https://github.com/johnpapa/node-hello#readme",
+  "dependencies": {
+    "@parcel/compressor-brotli": "^2.9.1",
+    "@parcel/compressor-gzip": "^2.9.1",
+    "colurs": "^1.0.29",
+    "excel4node": "^1.7.2",
+    "nodemailer": "^6.7.7",
+    "parcel": "^2.9.1"
+  },
+  "overrides": {
+    "jszip": "^3.10.0",
+    "ansi-html": "^0.0.9"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-esbuild": "^2.9.1"
+  }
+}
